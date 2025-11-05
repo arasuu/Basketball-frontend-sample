@@ -1,0 +1,85 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fbbf24;
+  text-shadow: 0 0 10px #fbbf24;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.team {
+  background: #222;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.team h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.score {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.highlight {
+  color: #22c55e;
+  text-shadow: 0 0 15px #22c55e;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background: #444;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #fbbf24;
+  color: black;
+}
+
+#new-game {
+  margin-top: 30px;
+  background: #dc2626;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 25px;
+}
+
+#new-game:hover {
+  background: #ef4444;
+}
